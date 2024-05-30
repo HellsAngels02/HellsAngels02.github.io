@@ -1,0 +1,55 @@
+.mi-cuenta {
+    border-radius: 3.1rem;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.9rem 0 2.6rem 0;
+    box-sizing: border-box;
+  }
+  .mi-cuenta .mi-cuenta-1 {
+    margin-bottom: 0.8rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 3.1rem;
+    color: #000000;
+  }
+  .mi-cuenta .textbotton {
+    border-radius: 2.5rem;
+    background: #36466B;
+    position: relative;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.1rem 0;
+    width: 19.3rem;
+    box-sizing: border-box;
+  }
+  .mi-cuenta .textbotton-1 {
+    border-radius: 2.5rem;
+    background: #36466B;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.1rem 0;
+    width: 19.3rem;
+    box-sizing: border-box;
+  }
+  .mi-cuenta .texto {
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #FFFFFF;
+  }
+  .mi-cuenta .texto-1 {
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #FFFFFF;
+  }

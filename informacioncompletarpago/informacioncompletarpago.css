@@ -1,0 +1,381 @@
+.informaci-nde-env-o {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .informacin-de-contacto {
+  margin: 0 27px 5px 27px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Text';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .informacin-de-envo {
+  margin: 0 18px 15px 18px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Text';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .mtodo-de-pago {
+  margin: 0 32px 18px 32px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Text';
+  font-weight: 400;
+  font-size: 30px;
+  color: #000000;
+}
+.informaci-nde-env-o .resumen-de-la-compra {
+  margin: 0 0 15.5px 5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Text';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .container {
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Display';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .subtotal {
+  margin: 1px 14.5px 1px 0;
+  display: inline-block;
+  width: 538.7px;
+  overflow-wrap: break-word;
+  font-family: 'Source Serif Pro', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .total {
+  margin-right: 14.5px;
+  width: 547.9px;
+  overflow-wrap: break-word;
+  font-family: 'Source Serif Pro', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .container-1 {
+  overflow-wrap: break-word;
+  font-family: 'Source Serif Pro', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .line-6 {
+  filter: blur(0.5px);
+  background: #CFC7C7;
+  position: relative;
+  margin: 0 0px 24.4px 2px;
+  width: 641px;
+  height: 1px;
+}
+.informaci-nde-env-o .line-7 {
+  filter: blur(0.5px);
+  background: #CFC7C7;
+  position: absolute;
+  left: 38px;
+  top: 61.5px;
+  right: 41px;
+  height: 1px;
+}
+.informaci-nde-env-o .line-8 {
+  filter: blur(0.5px);
+  background: #CFC7C7;
+  position: relative;
+  margin: 0 0 11px 2px;
+  width: 641px;
+  height: 1px;
+}
+.informaci-nde-env-o .line-9 {
+  filter: blur(0.5px);
+  background: #CFC7C7;
+  position: absolute;
+  left: 38px;
+  top: 349px;
+  right: 41px;
+  height: 1px;
+}
+.informaci-nde-env-o .line-12 {
+  filter: blur(0.5px);
+  background: #958F8F;
+  margin-bottom: 21px;
+  width: 640px;
+  height: 1px;
+}
+.informaci-nde-env-o .line-13 {
+  filter: blur(0.5px);
+  background: #958F8F;
+  width: 640px;
+  height: 1px;
+}
+.informaci-nde-env-o .line-10 {
+  filter: blur(0.5px);
+  background: #CFC7C7;
+  margin: 0 0 32px 2px;
+  width: 641px;
+  height: 1px;
+}
+.informaci-nde-env-o .rectangle-21 {
+  background: #D9D9D9;
+  margin-top: 0.1px;
+  width: 241px;
+  height: 229px;
+}
+.informaci-nde-env-o .container-2 {
+  margin-bottom: 194.1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Source Serif Pro', 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 30px;
+  color: #000000;
+}
+.informaci-nde-env-o .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 227px;
+  height: 63px;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .compra-100-segura {
+  margin: 13px 0 19px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Display';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .textbotton {
+  border-radius: 40px;
+  background: #c0d0f7;
+  position: relative;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  padding: 1.4px 0 1.6px 0;
+  width: 308px;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .correo {
+  margin: 0 10px 5px 10px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Display';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .nombres-yapellidos {
+  margin: 0 10px 5px 10px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Display';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .celular {
+  margin: 0 10px 15px 10px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Display';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .line-14 {
+  filter: blur(0.5px);
+  background: #958F8F;
+  margin-bottom: 20px;
+  width: 640px;
+  height: 1px;
+}
+.informaci-nde-env-o .group-9 {
+  border-radius: 10px;
+  background: #D9D9D9;
+  position: relative;
+  margin-right: 20px;
+  padding: 11px 6.8px 9px 6.8px;
+  width: 310px;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .group-10 {
+  border-radius: 10px;
+  background: #D9D9D9;
+  position: relative;
+  padding: 11px 6.8px 9px 6.8px;
+  width: 310px;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .complete-su-informacin-de-entrega {
+  margin: 0 18px 17px 18px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Text';
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.informaci-nde-env-o .group-8 {
+  border-radius: 10px;
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 21px;
+  padding: 11px 14px 9px 14px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .group-11 {
+  border-radius: 10px;
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 21px;
+  padding: 11px 14px 9px 14px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .group-12 {
+  border-radius: 10px;
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 76px;
+  padding: 11px 14px 9px 14px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .container {
+  margin: 15px 39px 116px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .container-1 {
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 643px;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .container-2 {
+  margin-bottom: 29px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .container-3 {
+  margin-left: 41px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .container-4 {
+  background: #EBEAEA;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 41px 477px 36px;
+  width: 720px;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .container-5 {
+  margin: 0 18.2px 33px 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 622.8px;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .container-6 {
+  background: #F7F7F7;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 25px 10px 39px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .container-7 {
+  margin: 0 0px 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 643px;
+  box-sizing: border-box;
+}
+.informaci-nde-env-o .imagen-de-whats-app-20240206-alas-20423 {
+  background: url('../assets/images/imagenDeWhatsApp20240206Alas20423.jpeg') 50% / cover no-repeat;
+  width: 227px;
+  height: 63px;
+}
+.informaci-nde-env-o .texto {
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Text';
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.informaci-nde-env-o .texto-1 {
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Display';
+  font-weight: 400;
+  font-size: 25px;
+  color: #948F8F;
+}
+.informaci-nde-env-o .texto-2 {
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Display';
+  font-weight: 400;
+  font-size: 25px;
+  color: #948F8F;
+}
+.informaci-nde-env-o .texto-3 {
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Display';
+  font-weight: 400;
+  font-size: 25px;
+  color: #948F8F;
+}
+.informaci-nde-env-o .texto-4 {
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Display';
+  font-weight: 400;
+  font-size: 25px;
+  color: #948F8F;
+}
+.informaci-nde-env-o .texto-5 {
+  overflow-wrap: break-word;
+  font-family: 'Libre Caslon Display';
+  font-weight: 400;
+  font-size: 25px;
+  color: #948F8F;
+}

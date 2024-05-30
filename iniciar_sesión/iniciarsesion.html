@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleiniciarsesion.css">
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center; /* Centrar horizontalmente */
+          align-items: center; /* Centrar verticalmente */
+          height: 100vh; /* Altura del viewport */
+          background-color: #f0f4f8; /* Fondo claro */
+          font-family: 'Arial', sans-serif; /* Fuente más moderna */
+        }
+        .iniciar-sesi-n {
+          background-color: #fff;
+          padding: 60px;
+          border-radius: 30px;
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+          width: 600px; /* Ancho fijo para el contenedor */
+          text-align: center; /* Centrar texto */
+        }
+        .container {
+          margin-bottom: 20px; /* Espacio entre contenedores */
+        }
+        .textbotton-enlace-usuario, .textbotton-enlace-contrasea {
+          margin-bottom: 20px; /* Espacio entre campos de entrada */
+        }
+        .texto-1, .texto-2 {
+          margin-bottom: 10px; /* Espacio entre etiqueta y campo */
+          font-weight: bold; /* Texto en negrita */
+          color: #333; /* Color de texto */
+          font-size: 16px; /* Tamaño de texto */
+          text-align: left; /* Alinear texto a la izquierda */
+        }
+        .rectangle-9, .rectangle-91 {
+          margin-bottom: 15px;
+        }
+        input[type="text"], input[type="password"] {
+          width: 100%;
+          padding: 12px;
+          margin-top: 5px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 14px;
+          box-sizing: border-box;
+        }
+        input[type="text"]:focus, input[type="password"]:focus {
+          border-color: rgba(0, 123, 255, 0.5);
+          outline: none;
+          box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+        .olvid-mi-contrasea {
+          text-align: right;
+          margin-bottom: 20px;
+        }
+        .olvid-mi-contrasea a {
+          font-size: 14px;
+          color: #007bff;
+          text-decoration: none;
+        }
+        .olvid-mi-contrasea a:hover {
+          text-decoration: underline;
+        }
+        .registrarme {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .registrarme-1 {
+          font-size: 14px;
+          color: #007bff;
+          cursor: pointer;
+          text-decoration: none;
+        }
+        .registrarme-1:hover {
+          text-decoration: underline;
+        }
+        .textbotton {
+          text-align: center;
+          margin-top: 20px;
+        }
+        .texto {
+          text-align: center;
+          display: inline-block;
+          padding: 12px 25px;
+          background-color: rgba(0, 123, 255, 0.5);
+          color: #c50e0e;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+          border: none;
+        }
+        .texto:hover {
+          background-color: #0056b3;
+        }
+      </style>
+</head>
+
+<body>
+      <div class="iniciar-sesi-n">
+        <form id="login-form">
+          <div class="container">
+            <div class="textbotton-enlace-usuario">
+              <div class="texto-1">
+                Email
+              </div>
+              <div class="rectangle-9">
+                <input type="text" id="email" name="email" placeholder="Ingrese su email">
+              </div>
+            </div>
+            <div class="textbotton-enlace-contrasea">
+              <div class="texto-2">
+                Contraseña
+              </div>
+              <div class="rectangle-91">
+                <input type="password" id="password" name="password" placeholder="Ingrese su contraseña">
+              </div>
+            </div>
+          </div>
+          <div class="olvide-mi-contrasea">
+            <a href="../restablecimientocontraseña/restablecimientocontraeña.html" class="olvid-mi-contrasea-1">Olvidé mi contraseña</a>
+          </div>
+          <div class="registrarme">
+            <a href="../cuenta/micuenta.html" class="registrarme">registrarme</a>
+          </div>
+          
+            <a href="../index/index.html" class="texto">Ingresar</a>
+          </div>
+        </form>
+      </div>
+
+      
+</body>
+</html>

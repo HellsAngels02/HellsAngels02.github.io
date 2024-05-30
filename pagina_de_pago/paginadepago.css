@@ -1,0 +1,310 @@
+.pgina-pago .compra-100-segura {
+    margin: 13px 0 19px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Display';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .pgina-pago .mis-compras {
+    margin: 0 1px 6px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+  }
+  .pgina-pago .los-artculos-no-estn-reservados-finaliza-tu-compra-para-asegurarlos {
+    margin: 0 1px 47px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Display';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .pgina-pago .precio {
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+  }
+  .pgina-pago .cantidad {
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+  }
+  .pgina-pago .total {
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+  }
+  .pgina-pago .producto {
+    margin-right: 18.5px;
+    width: 669.4px;
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+  }
+  .pgina-pago .rectangle-21 {
+    background: #D9D9D9;
+    width: 263px;
+    height: 229px;
+  }
+  .pgina-pago .line-6 {
+    filter: blur(2px);
+    background: #000000;
+    margin: 0 2px 19px 0;
+    width: 1440px;
+    height: 1px;
+  }
+  .pgina-pago .container {
+    margin: 13.4px 17.5px 0.6px 0;
+    display: inline-block;
+    width: 185.5px;
+    overflow-wrap: break-word;
+    font-family: 'Source Serif Pro', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+  }
+  .pgina-pago .container-1 {
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Display';
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+  }
+  .pgina-pago .plus {
+    background: url('../assets/images/plus.png') 50% / contain no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 158.5px;
+    translate: 0 -50%;
+    width: 22.1px;
+    height: 20.5px;
+  }
+  .pgina-pago .minus {
+    background: url('../assets/images/minus.png') 50% / contain no-repeat;
+    margin: 19.5px 18.8px 9.1px 0;
+    width: 22.1px;
+    height: 20.5px;
+  }
+  .pgina-pago .line-7 {
+    filter: blur(2px);
+    background: #000000;
+    margin-bottom: 43px;
+    width: 1440px;
+    height: 1px;
+  }
+  .pgina-pago .resumen-de-la-compra {
+    margin: 0 1px 54px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .pgina-pago .container-2 {
+    margin: 13.4px 0 0.6px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Source Serif Pro', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+  }
+  .pgina-pago .tems-sin-descuento {
+    margin-right: 15.5px;
+    width: 360.7px;
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Display';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .pgina-pago .ropa-sale {
+    margin-right: 15.5px;
+    width: 422.1px;
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Display';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .pgina-pago .subtotal {
+    margin: 1px 14.5px 1px 0;
+    display: inline-block;
+    width: 361.7px;
+    overflow-wrap: break-word;
+    font-family: 'Source Serif Pro', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .pgina-pago .total-1 {
+    margin-right: 14.5px;
+    width: 370.9px;
+    overflow-wrap: break-word;
+    font-family: 'Source Serif Pro', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .pgina-pago .line-8 {
+    filter: blur(2px);
+    background: #000000;
+    margin-bottom: 13px;
+    width: 710px;
+    height: 1px;
+  }
+  .pgina-pago .container-3 {
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Display';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .pgina-pago .container-4 {
+    overflow-wrap: break-word;
+    font-family: 'Source Serif Pro', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .pgina-pago .textbotton {
+    border-radius: 40px;
+    background: #36466B;
+    position: relative;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.4px 0 1.6px 0;
+    width: 308px;
+    box-sizing: border-box;
+  }
+  .pgina-pago .container-5 {
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Display';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .pgina-pago .container-6 {
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Display';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+  }
+  .pgina-pago {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 59px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .pgina-pago .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 227px;
+    height: 63px;
+    box-sizing: border-box;
+  }
+  .pgina-pago .container {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 466px;
+    box-sizing: border-box;
+  }
+  .pgina-pago .container-1 {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 466px;
+    box-sizing: border-box;
+  }
+  .pgina-pago .container-2 {
+    background: #F7F7F7;
+    position: relative;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 25px 10px 39px;
+    width: 1440px;
+    box-sizing: border-box;
+  }
+  .pgina-pago .container-3 {
+    margin: 0 135.8px 4px 135.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    width: 1137.1px;
+    box-sizing: border-box;
+  }
+  .pgina-pago .container-4 {
+    position: relative;
+    margin: 0 126.2px 52px 102px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1211.8px;
+    box-sizing: border-box;
+  }
+  .pgina-pago .container-5 {
+    margin: 83.6px 0px 96.4px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 460.8px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .pgina-pago .texto {
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  .pgina-pago .imagen-de-whats-app-20240206-alas-20423 {
+    background: url('../assets/images/imagenDeWhatsApp20240206Alas20423.jpeg') 50% / cover no-repeat;
+    width: 227px;
+    height: 63px;
+  }
+  .pgina-pago .container-6 {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 466px;
+    box-sizing: border-box;
+  }
+  .pgina-pago .container-7 {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 466px;
+    box-sizing: border-box;
+  }

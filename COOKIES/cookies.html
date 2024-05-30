@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cookie Notification</title>
+<style>
+  .cookie-notification {
+    position: fixed;
+    bottom: 20px; /* Ajuste de la posición vertical */
+    left: 50%; /* Ajuste de la posición horizontal */
+    transform: translateX(-50%) translateY(100%); /* Centrado horizontal y oculto verticalmente */
+    width: 80%; /* Ajuste opcional del ancho */
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .cookie-notification.visible {
+    transform: translateX(-50%) translateY(0); /* Centrado horizontal y visible verticalmente */
+  }
+
+  .cookie-notification p {
+    margin-bottom: 10px;
+  }
+
+  .cookie-notification button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+
+  .cookie-notification button:hover {
+    background-color: #4CAF50;
+  }
+</style>
+</head>
+<body>
+
+<div class="cookie-notification">
+  <p>En avianca utilizamos cookies propias y de terceros con fines analíticos y a fin de garantizar la funcionalidad de la web, 
+    mejorar tu experiencia y mostrar publicidad relacionada con tus preferencias. Puedes "Aceptar" o seleccionar aquellas que quieras 
+    en "Configurar cookies". Para conocer más, consulta nuestra </p>
+  <button class="accept-cookies">A C E P T A R</button>
+  <button class="reject-cookies">N E G A R</button>
+</div>
+
+<script>
+  const cookieNotification = document.querySelector('.cookie-notification');
+  const acceptButton = document.querySelector('.accept-cookies');
+  const rejectButton = document.querySelector('.reject-cookies');
+
+  acceptButton.addEventListener('click', () => {
+    // Set cookie to accept cookies
+    document.cookie = 'cookies_accepted=true; expires=Fri, 31 Dec 9999 23:59:59 GMT;';
+    cookieNotification.classList.remove('visible');
+  });
+
+  rejectButton.addEventListener('click', () => {
+    // Set cookie to reject cookies
+    document.cookie = 'cookies_accepted=false; expires=Fri, 31 Dec 9999 23:59:59 GMT;';
+    cookieNotification.classList.remove('visible');
+  });
+
+  // Show the cookie notification after 5 seconds
+  setTimeout(() => {
+    cookieNotification.classList.add('visible');
+  }, 1000);
+</script>
+
+</body>
+</html>

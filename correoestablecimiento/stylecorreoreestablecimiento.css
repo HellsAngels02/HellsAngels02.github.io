@@ -1,0 +1,88 @@
+.reestablecer-contrase-a {
+    border-radius: 3.1rem;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.7rem 0 1.2rem 0;
+    box-sizing: border-box;
+  }
+  .reestablecer-contrase-a .group-1 {
+    margin-bottom: 3.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .reestablecer-contrase-a .textbotton-enlace {
+    margin: 0 1.3rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .reestablecer-contrase-a .textbotton {
+    border-radius: 2.5rem;
+    background: #36466B;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.1rem 0;
+    width: 20.4rem;
+    box-sizing: border-box;
+  }
+  .reestablecer-contrase-a .container {
+    box-shadow: 1.4rem 1.4rem 2.4rem 0rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.7rem;
+    border: 0.1rem solid #000000;
+    background: #000000;
+    position: relative;
+    margin-bottom: 4.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.8rem 1.2rem 3.7rem 1.1rem;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .reestablecer-contrase-a .line-3 {
+    background: #FFFFFF;
+    width: 28.6rem;
+    height: 0.1rem;
+  }
+  .reestablecer-contrase-a .texto {
+    margin: 0 0.6rem 0.4rem 0.6rem;
+    display: inline-block;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Source Serif Pro', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+  }
+  .reestablecer-contrase-a .rectangle-9 {
+    box-shadow: inset 0.3rem 0.3rem 0.3rem 0rem rgba(0, 0, 0, 0.25);
+    border-radius: 2.5rem;
+    background: #395699;
+    width: 25.9rem;
+    height: 2.5rem;
+  }
+  .reestablecer-contrase-a .texto-1 {
+    margin: 0 2.3rem 0.5rem 2.3rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Display';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #FFFFFF;
+  }
+  .reestablecer-contrase-a .texto-2 {
+    overflow-wrap: break-word;
+    font-family: 'Libre Caslon Text';
+    font-weight: 400;
+    font-size: 1.9rem;
+    color: #FFFFFF;
+  }

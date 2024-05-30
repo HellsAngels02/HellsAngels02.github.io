@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restablecimiento de Contraseña</title>
+    <link rel="stylesheet" href="stylerestablecimientocontraseña.css">
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center; /* Centrar horizontalmente */
+          align-items: center; /* Centrar verticalmente */
+          height: 100vh; /* Altura del viewport */
+        }
+        .restauraci-ncontrase-a {
+          /* Estilos adicionales para el contenedor principal */
+          background-color: #f0f0f0;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Puedes agregar más estilos para los elementos internos si es necesario */
+    </style>
+</head>
+
+<body>
+    <div class="restauraci-ncontrase-a">
+        <div class="container">
+          <div class="group-2">
+            <div class="texto-2">
+              Te enviaremos un correo electrónico para restablecer tu contraseña
+            </div>
+            <div class="line-3"></div>
+          </div>
+          <div class="input-field">
+            <label for="new-password" class="texto">Nueva Contraseña</label>
+            <input type="password" id="new-password" name="new-password">
+          </div>
+          <div class="input-field">
+            <label for="confirm-password" class="texto">Confirmar Contraseña</label>
+            <input type="password" id="confirm-password" name="confirm-password">
+            <span id="message" style="color: red;"></span>
+          </div>
+        </div>
+        <a   href="../iniciar_sesión/iniciarsesion.html"  onclick="return validatePasswords()" class="textbotton">Enviar</a>
+        <!-- Usamos "return validatePasswords()" para detener el envío del formulario si las contraseñas no coinciden -->
+        <a href="../index/index.html" class="enviar">Cancelar</a>
+    </div>
+    <script>
+        function validatePasswords() {
+            var newPassword = document.getElementById("new-password").value;
+            var confirmPassword = document.getElementById("confirm-password").value;
+            var message = document.getElementById("message");
+
+            if (newPassword !== confirmPassword) {
+                message.innerHTML = "Las contraseñas no coinciden";
+                return false; // Devolvemos false para detener el envío del formulario
+            } else {
+                message.innerHTML = "";
+                return true; // Devolvemos true para permitir el envío del formulario
+            }
+        }
+    </script>
+</body>
+</html>

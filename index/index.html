@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<style>
+  /* Estilos generales */
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Imagenes/inicio.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top; /* Centra la imagen horizontalmente y la mantiene en la parte superior */
+    font-family: Arial, sans-serif;
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+  }
+  
+  /* Estilos del contenedor principal */
+  .container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 1200px; /* Ajusta la altura mínima para extender el scroll más allá del final de la imagen */
+    position: relative; /* Establece la posición relativa para poder posicionar elementos absolutos dentro */
+  }
+  
+  /* Estilos del contenido */
+  .content {
+    /* No es necesario ajustar la altura del contenido */
+  }
+  
+  /* Estilos de la caja horizontal */
+  .horizontal-box {
+    background-color: white;
+    height: 90px; /* Ajusta la altura de la caja */
+    width: 100%;
+    position: fixed;
+    top: 30px; /* Ajusta la distancia desde la parte superior */
+    left: 0;
+    z-index: 1000;
+    background-image: url(../Imagenes/prueb\ logo.png);
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 100px; /* Espacio adicional para la imagen */
+  }
+
+  /* Estilos de las cajas adicionales */
+  .additional-box {
+    width: 300px; /* Ancho de la caja */
+    height: 100px; /* Altura de la caja */
+    position: absolute; /* Posicionamiento absoluto */
+    top: calc(50% + 55px); /* Centrado verticalmente con un desplazamiento hacia abajo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Estilos de la caja roja */
+  .additional-box-red {
+    background-color: red; /* Color de fondo de la caja roja */
+    left: calc(50% - 350px); /* Centrado horizontalmente con un desplazamiento hacia la izquierda */
+    background-image: url(../Imagenes/hombre2.png);
+  }
+
+  /* Estilos de la segunda caja adicional */
+  .additional-box-blue {
+    background-color: blue; /* Color de fondo de la segunda caja azul */
+    left: calc(50% + 50px); /* Ajusta la posición horizontal */
+    background-image: url(../Imagenes/mujer\ 2.png);
+  }
+
+  /* Estilo para el enlace */
+  .link-box {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: inherit; /* Utiliza el color de texto heredado */
+  }
+
+  /* Estilo para el carrito de compras */
+  .shopping-cart {
+    position: fixed;
+    top: 45px; /* Ajusta la distancia desde la parte superior */
+    right: 20px;
+    z-index: 1001; /* Asegura que el carrito de compras esté por encima de la caja blanca */
+    width: 60px; /* Tamaño aumentado */
+    height: auto; /* Para mantener la proporción */
+  }
+
+  /* Estilo para la segunda imagen (lupa) */
+  .search-icon {
+    position: fixed;
+    top: 45px; /* Ajusta la distancia desde la parte superior */
+    right: 100px; /* Ajusta la distancia desde el lado derecho */
+    z-index: 1001; /* Asegura que la segunda imagen esté por encima de la caja blanca */
+    width: 80px; /* Tamaño de la segunda imagen */
+    height: auto; /* Para mantener la proporción */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la lupa */
+  }
+
+  /* Estilos para la imagen de cuenta */
+  .account-icon {
+    position: fixed;
+    top: 40px; /* Ajusta la distancia desde la parte superior */
+    right: calc(100px + 80px + 20px); /* Ajusta la distancia desde el lado derecho */
+    z-index: 1001; /* Asegura que la imagen de cuenta esté por encima de la caja blanca */
+    width: 80px; /* Tamaño de la imagen de cuenta */
+    height: auto; /* Para mantener la proporción */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen de cuenta */
+  }
+
+  /* Estilos para el cuadro de búsqueda */
+  .search-box {
+    position: fixed;
+    top: 120px; /* Ajusta la distancia desde la parte superior */
+    right: calc(50% - 500px); /* Ajusta la distancia desde el lado derecho */
+    z-index: 1002; /* Asegura que el cuadro de búsqueda esté sobre la lupa */
+    width: 1000px; /* Ancho del cuadro de búsqueda */
+    height: 30px; /* Altura del cuadro de búsqueda */
+    padding: 5px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del cuadro de búsqueda */
+    background-color: white; /* Color de fondo */
+    display: none; /* Por defecto, oculto */
+  }
+
+  /* Estilos para el cuadro de texto */
+  .text-box {
+    position: fixed;
+    top: 120px; /* Ajusta la distancia desde la parte superior */
+    right: calc(50% - 500px); /* Ajusta la distancia desde el lado derecho */
+    z-index: 1003; /* Asegura que el cuadro de texto esté sobre el cuadro de búsqueda */
+    width: 1000px; /* Ancho del cuadro de texto */
+    height: 30px; /* Altura del cuadro de texto */
+    padding: 5px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del cuadro de texto */
+    background-color: white; /* Color de fondo */
+    display: none; /* Por defecto, oculto */
+  }
+</style>
+</head>
+<body>
+
+<div class="horizontal-box"></div>
+
+<div class="container">
+  <div class="content">
+    <!-- Contenido de la página -->
+    <!-- Cajas adicionales -->
+    <a href="../Hombre/hombre.html" class="link-box">
+      <div class="additional-box additional-box-red"></div>
+    </a>
+    <a href="../mujer/mujer.html" class="link-box">
+      <div class="additional-box additional-box-blue"></div>
+    </a>
+  </div>
+</div>
+
+<!-- Agregando la imagen del carrito de compras -->
+<a href=..\pagina_de_pago\pagina_de_pago.html class="link-box">
+  <img src=..\Imagenes\shoppingcart.png alt="Shopping Cart" class="shopping-cart">
+</a>
+
+<!-- Agregando la imagen de cuenta -->
+<a href=..\cuenta\micuenta.html class="link-box">
+  <img src=..\Imagenes\cuenta.png alt="Cuenta" class="account-icon" id="accountIcon">
+</a>
+
+
+
+<!-- Agregando la segunda imagen (lupa) -->
+<img src=..\Imagenes\lupa.png alt="Second Image" class="search-icon" id="searchIcon">
+
+<!-- Cuadro de búsqueda -->
+<div class="search-box" id="searchBox">
+  <input type="text" placeholder="Buscar...">
+</div>
+
+<!-- Cuadro de texto -->
+<div class="text-box" id="textBox">
+  <input type="text" placeholder="Texto...">
+</div>
+
+<script>
+  // Script para mostrar/ocultar el cuadro de búsqueda al hacer clic en la lupa
+  const searchIcon = document.getElementById("searchIcon");
+  const searchBox = document.getElementById("searchBox");
+  const textBox = document.getElementById("textBox");
+
+  searchIcon.addEventListener("click", function() {
+    if (searchBox.style.display === "none") {
+      searchBox.style.display = "block";
+      textBox.style.display = "block";
+    } else {
+      searchBox.style.display = "none";
+      textBox.style.display = "none";
+    }
+  });
+</script>
+
+<style>
+  .cookie-notification {
+    position: fixed;
+    bottom: 20px; /* Ajuste de la posición vertical */
+    left: 50%; /* Ajuste de la posición horizontal */
+    transform: translateX(-50%) translateY(100%); /* Centrado horizontal y oculto verticalmente */
+    width: 80%; /* Ajuste opcional del ancho */
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .cookie-notification.visible {
+    transform: translateX(-50%) translateY(0); /* Centrado horizontal y visible verticalmente */
+  }
+
+  .cookie-notification p {
+    margin-bottom: 10px;
+  }
+
+  .cookie-notification button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+
+  .cookie-notification button:hover {
+    background-color: #4CAF50;
+  }
+</style>
+</head>
+<body>
+
+<div class="cookie-notification">
+  <p>En Bling utilizamos cookies propias y de terceros con fines analíticos y a fin de garantizar la funcionalidad de la web, 
+    mejorar tu experiencia y mostrar publicidad relacionada con tus preferencias. Puedes "Aceptar" o seleccionar aquellas que quieras 
+    en "Configurar cookies". Para conocer más, consulta nuestra </p>
+  <button class="accept-cookies">A C E P T A R</button>
+  <button class="reject-cookies">N E G A R</button>
+</div>
+
+<script>
+  const cookieNotification = document.querySelector('.cookie-notification');
+  const acceptButton = document.querySelector('.accept-cookies');
+  const rejectButton = document.querySelector('.reject-cookies');
+
+  acceptButton.addEventListener('click', () => {
+    // Set cookie to accept cookies
+    document.cookie = 'cookies_accepted=true; expires=Fri, 31 Dec 9999 23:59:59 GMT;';
+    cookieNotification.classList.remove('visible');
+  });
+
+  rejectButton.addEventListener('click', () => {
+    // Set cookie to reject cookies
+    document.cookie = 'cookies_accepted=false; expires=Fri, 31 Dec 9999 23:59:59 GMT;';
+    cookieNotification.classList.remove('visible');
+  });
+
+  // Show the cookie notification after 5 seconds
+  setTimeout(() => {
+    cookieNotification.classList.add('visible');
+  }, 1000);
+
+  src="cookies.js"
+</script>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
